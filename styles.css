@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+    font-family: 'Comfortaa';
+}
+
+.feedWrapper {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: medium;
+    margin-left: 10px;
+    width: 95%;
+}
+
+p {
+    font-size: small;
+    padding: 0 10px;
+}
+
+h3 {
+    font-size: small;
+    color: gray;
+    width: 5%;
+    font-weight: lighter;
+}
+
+img {
+    object-fit: cover;
+    width: 400px;
+	height: 400px;
+}
+
+#photo1 {
+    margin-top: 30px;
+    background-color: white;
+    width: 400px;
+    border-radius: 3px;
+}
+
+#photo2 {
+    margin-top: 30px;
+    background-color: white;
+    width: 400px;
+    border-radius: 3px;
+}
+
+#photo3 {
+    margin-top: 30px;
+    background-color: white;
+    width: 400px;
+    border-radius: 3px;
+}
+
+#photo4 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: white;
+    width: 400px;
+    border-radius: 3px;
+}
+
+.photoHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+#photo3 img {
+    object-position: bottom;
+}
+
+#photo4 img {
+    object-position: bottom;
+}
